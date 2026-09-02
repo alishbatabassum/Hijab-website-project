@@ -3427,7 +3427,11 @@ img, svg { max-width: 100%; }
 .product-image img,
 .about-image-frame img,
 .art-frame img {
+    width: 100%;
+    height: 100%;
     max-width: 100%;
+    object-fit: cover;
+    
 }
 
 /* Better keyboard accessibility */
